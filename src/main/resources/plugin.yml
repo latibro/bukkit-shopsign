@@ -1,0 +1,21 @@
+name: ShopSign
+version: 0.0.1-SNAPSHOT
+author: Latibro
+website: http://latibro.com
+description: Very simple shop sign system
+
+main: com.latibro.bukkit.plugin.shopsign.ShopSignPlugin
+
+commands:
+  shopsignadd:
+    description: ShopSign add command
+    aliases: [ssadd, ssa]
+    usage: /<command>
+    permission: shopsign.add
+
+permissions:
+  shopsign.use:
+    description: Allowed to use shops
+  shopsign.add:
+    description: Allowed to add shops
+    

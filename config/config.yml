@@ -1,0 +1,18 @@
+
+shops:
+    test:
+        type: BlockBelow
+        location:
+            world: world
+            x: 95
+            y: 63
+            z: 267
+        amount: 64
+        item-hint: DIRT
+        sign-text:
+            - "Jord"
+            - "64 stk"
+            - "Gratis"
+        max-inventory: 320
+        cool-down: 5
+                
